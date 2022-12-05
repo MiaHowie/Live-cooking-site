@@ -1,0 +1,88 @@
+body {
+    background-color: darkblue;
+}
+
+/* Header/Blog Title */
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 64;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    width: 100%;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: right;
+    display: block;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: azure;
+    color: black;
+}
+
+/*Use a grid for the image cards */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.image-card {
+    background-size: cover;
+    position: relative;
+    padding: 100px;
+    margin-top: 20px;
+    max-height: 200px;
+}
+
+.image-card h2 {
+    background-color: coral;
+    position: relative;
+    top: 150px;
+}
+
+/* Add a card effect for articles */
+.card {
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.row {}
+
+/* Clear floats after the columns */
+.row:after {}
+
+/* Footer */
+.footer {
+    padding: 20px;
+
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {}
+
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {}
